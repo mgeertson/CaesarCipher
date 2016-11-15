@@ -8,7 +8,6 @@ option = sys.argv[1]
 if option == '-e':
 	rot = sys.argv[2]
 	message = sys.argv[3]
-	#print(ord(message))
 
 	for letter in message.lower():
 		if ord(letter) == 32:
