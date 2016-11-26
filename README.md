@@ -2,10 +2,21 @@
 This program will encrypt a message using ROT or decrypt a message using bruteforce.
 
 
-Encryption:
+PROGRAM 1: Caesar Cipher Encryption
+	
+	1. From Terminal type:
+		./caesar.py -e ROT_VALUE "STRING_TO_ENCRYPT"
+	
+	*Please surround STRING_TO_ENCRYPT in quotes*
 
-From terminal type "./Caesar.py -e ROT_NUMBER "MESSAGE" " where ROT_NUMBER is an integer value and MESSAGE ("encapsulated in quotation marks") is the string you wish to encrypt.
+	2. Terminal will output string encrypted using the ROT_VALUE supplied.
 
-Decryption:
 
-From terminal type "./Caesar.py -d "MESSAGE" " where MESSAGE ("encapsulated in quotation marks") is the string you wish to decrypt.
+PROGRAM 2: Caesar Cipher Decryption (Brute Force Method)
+	
+	1. From Terminal type:
+		./caesar.py -d "STRING_TO_DECRYPT"
+
+	*Please surround STRING_TO_DECRYPT in quotes*
+
+	2. Terminal will output ROT0 through ROT25 decryption attempts.
